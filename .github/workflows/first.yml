@@ -9,8 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: CHECKOUTT LS
-        run: ls
+      - name: LS CO
+        run: |
+          ls
       - uses: samifiaz/gh-action-docker@master
-      - name: MY ACTION LS
-        run: ls
+      - name: LS MY
+        run: |
+          ls
