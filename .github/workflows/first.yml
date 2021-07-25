@@ -8,4 +8,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+        run: ls
       - uses: samifiaz/gh-action-docker@master
+        run: ls
