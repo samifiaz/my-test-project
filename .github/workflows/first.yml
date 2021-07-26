@@ -13,4 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: MY ACTION
+      - uses: actions/checkout@v2
+      - name: LS CO
+        run: |
+          ls
       - uses: samifiaz/gh-action-docker@master
+      - name: LS MY
+        run: |
+          ls
