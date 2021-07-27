@@ -1,4 +1,4 @@
-name: Update AWS S3 with current release
+name: Upload current release content to S3 bucket
 
 on:
   push:
