@@ -2,7 +2,17 @@
 
 This project uses `s3cdn` github action to upload released versions to their respective AWS S3 directories.
 
-### `release-to-s3.yml` workflow
+# Testing
+
+To test this workflow:
+
+- Go to `release` from your main repo.
+- Click `Draft a new release`
+- Enter verion name e.g `v1.2.3`, `v1.2.3-beta.1`, or `1.2.3` (without v)
+- Go to `Actions` tab
+- You can see the action running. After successful completetion, go to AWS S3, open your bucket, confirm that respective major, minor and patch directories are created against your release version.
+
+## workflow `release-to-s3.yml`
 
 ```
 name: Update AWS S3 with current release
