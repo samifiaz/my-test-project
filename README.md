@@ -10,7 +10,7 @@ To test this workflow:
 - Click `Draft a new release`
 - Enter verion name e.g `v1.2.3`, `v1.2.3-beta.1`, or `1.2.3` (without v)
 - Go to `Actions` tab
-- You can see the action running. After successful completetion, go to AWS S3, open your bucket, confirm that respective major, minor and patch directories are created against your release version.
+- You can see the action running. After successful completetion, go to AWS S3 (ask Sami for s3 creds), open your bucket, confirm that respective major, minor and patch directories are created against your release version.
 
 ## workflow `release-to-s3.yml`
 
